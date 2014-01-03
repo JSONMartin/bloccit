@@ -14,7 +14,7 @@ class PostsController < ApplicationController
 
   def new
     @post = Post.new
-    @topic = Post.find(params[:topic_id])
+    @topic = Topic.find(params[:topic_id])
     authorize! :create, Post, message: "You need to be a member to create a new post."
   end
 
@@ -26,7 +26,7 @@ class PostsController < ApplicationController
     authorize! :create, @post, message: "You need to be signed up to do that."
     if @post.save
       flash[:notice] = "Post was saved."
-      redirect_to @post
+      redirect_to [@topic, @post]
     else
       flash[:error] = "There was an error saving the post. Please try again."
       render :new
