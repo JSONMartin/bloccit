@@ -26,5 +26,6 @@ end
 gem 'jquery-rails'
 
 gem 'faker'
-gem 'devise'
-gem 'cancan'
+gem 'devise' # User account GEM
+gem 'cancan' # Authentication GEM
+gem 'redcarpet' # Markdown GEM
