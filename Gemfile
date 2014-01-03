@@ -29,3 +29,7 @@ gem 'faker'
 gem 'devise' # User account GEM
 gem 'cancan' # Authentication GEM
 gem 'redcarpet' # Markdown GEM
+gem 'carrierwave' # File uploading GEM
+gem 'mini_magick' # Image manipulation GEM
+gem 'fog' # Cloud based storage GEM
+gem 'figaro' # Credential Handling GEM
