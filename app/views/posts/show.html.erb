@@ -11,6 +11,16 @@
       <%= image_tag(@post.post_image.url) if @post.post_image? %>
       <%= markdown @post.body %>
     </p>
+    <div id = "comments">
+      <h4><u>Comments</u></h4>
+      <ol>
+        <%= render @comments %>
+      </ol>
+      <% if can? :create, Comment %>
+        <h4><u>Add New Comment</u></h4>
+        <%= render partial: 'comments/form', locals: { topic: @topic, post: @post } %> 
+      <% end %>
+    </div>
   </div>
   <div class = "span4">  
     <% if can? :edit, @post %>
