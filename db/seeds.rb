@@ -65,7 +65,7 @@ rand(4..10).times do
         #  body: Faker::Lorem.paragraphs(rand(1..2)).join("\n")
         #  ) 
 
-        c = p.comments.create(  
+        c = p.comments.new(  
           body: Faker::Lorem.paragraphs(rand(1..2)).join("\n")
         )
         

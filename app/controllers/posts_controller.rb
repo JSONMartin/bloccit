@@ -1,12 +1,5 @@
 class PostsController < ApplicationController
 
-## Depricated Code
-=begin  
-  def index
-    @posts = Post.all
-  end
-=end
-
   def show
     @post = Post.find(params[:id])
     @topic = Topic.find(params[:topic_id])
