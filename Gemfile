@@ -34,3 +34,4 @@ gem 'mini_magick' # Image manipulation GEM
 gem 'fog' # Cloud based storage GEM
 gem 'figaro' # Credential Handling GEM
 gem 'will_paginate', '~> 3.0' # Pagination GEM
+gem 'omniauth-facebook' # Gem to handle Facebook logins
