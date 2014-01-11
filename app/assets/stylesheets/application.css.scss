@@ -1,4 +1,6 @@
 @import "bootstrap";
+@import "bootstrap-custom";
+
 .user-info {
   /*margin-top: 25px;*/
   padding-top: 15px;
@@ -15,4 +17,8 @@
 
 .favorite {
   margin-top: 20px;
+}
+
+.voted {
+  opacity: 0.5;
 }
