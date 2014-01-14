@@ -20,11 +20,11 @@ class FavoritesController < ApplicationController
   def destroy
     @topic = Topic.find(params[:topic_id])
     @post = Post.find(params[:post_id])
-    @favorite = current_user.favorites.find(params[:id])
-t
-    authorize! :destroy, @favorite, message: "You cannot do that."
+    favorite = current_user.favorites.find(params[:id])
 
-    if @favorite.destroy
+    authorize! :destroy, favorite, message: "You cannot do that."
+
+    if favorite.destroy
       flash[:notice] = "Unfavorited."
       redirect_to [@topic, @post]
     else

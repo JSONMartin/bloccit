@@ -1,10 +1,10 @@
 <li>
   <%= content_tag :div, class: 'media', id: "comment-#{comment.id}" do %>
-    <%= link_to '#', class: 'pull-left' do %>
+    <%= link_to '#', class: 'pull-left', style: "width:30px;height:30px;" do %>
      <% if comment.user.avatar? %>
-          <%= image_tag(comment.user.avatar.small.url) %>
+          <%= image_tag(comment.user.avatar.small.url, size: "30x30", alt: "") %>
       <% else %>
-          <%= image_tag('http://www.admissionsdean.com/images/content/users/user_placeholder.png', size: "30x30") %>
+          <%= image_tag('http://www.admissionsdean.com/images/content/users/user_placeholder.png', size: "30x30", alt: "") %>
       <% end %>
     <% end %>
     <div class = "media-body">
@@ -14,7 +14,7 @@
         <small>
           <i>Created <%= time_ago_in_words(comment.created_at) %> ago by <b><%= "#{ comment.user.name } "%></b></i>
           <% if can? :destroy, comment %>
-            | <%= link_to "Delete", [@topic, @post, comment], method: :delete %>
+            | <%= link_to "Delete", comment_url_helper(comment), method: :delete %>
           <% end %>
         </small>
       </p>
