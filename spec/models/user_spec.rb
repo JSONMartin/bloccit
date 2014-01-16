@@ -41,7 +41,24 @@ describe User do
       users = User.top_rated
       users.first.comments_count.should eq(2)
     end
+  end
 
+  describe ".role?" do
+    before :each do
+      @uTest = create(:user)
+    end
+
+    it "should return true for role of 'member'" do
+      @uTest.role?("member").should be_true
+    end
+
+    it "should return false for role of 'admin'" do
+      @uTest.role?("moderator").should be_false
+    end
+
+    it "should return false for role of 'admin'" do
+      @uTest.role?("admin").should be_false
+    end
   end
 
 end
