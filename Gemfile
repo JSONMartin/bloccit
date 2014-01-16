@@ -13,6 +13,10 @@ group :development do
   gem 'sqlite3'
 end
 
+group :development, :test do
+  gem 'rspec-rails' # Rspec testing
+  gem 'factory_girl_rails', '~> 4.0' # Factories GEM for DRYing up tests
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
