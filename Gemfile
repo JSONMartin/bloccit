@@ -16,6 +16,7 @@ end
 group :development, :test do
   gem 'rspec-rails' # Rspec testing
   gem 'factory_girl_rails', '~> 4.0' # Factories GEM for DRYing up tests
+  gem 'database_cleaner' # Cleans database between tests
 end
 
 # Gems used only for assets and not required
