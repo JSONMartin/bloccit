@@ -1,0 +1,699 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"style",
+				"stylesheet_link_tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/jason.carter.martin/code/snippets.rb",
+			"settings":
+			{
+				"buffer_size": 19,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 115.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control:remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sublimecodeintel",
+				"SublimeCodeIntel: Reset"
+			],
+			[
+				"package control",
+				"Package Control: Remove Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"alignment",
+				"Preferences: Alignment Key Bindings – User"
+			],
+			[
+				"package control:insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jason.carter.martin/code/bloccit/spec/models/user_spec.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/models/user.rb",
+		"/Users/jason.carter.martin/code/bloccit/spec/factories/comment.rb",
+		"/Users/jason.carter.martin/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jason.carter.martin/code/bloccit/app/views/welcome/index.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/config/routes.rb",
+		"/Users/jason.carter.martin/Library/Application Support/Sublime Text 3/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/jason.carter.martin/Library/Application Support/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
+		"/Users/jason.carter.martin/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/Default (OSX).sublime-keymap",
+		"/Users/jason.carter.martin/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/jason.carter.martin/code/bloccit/config/initializers/fog.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/posts/index.html.erb",
+		"/Users/jason.carter.martin/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/jason.carter.martin/code/bloccit/app/models/post.rb",
+		"/Users/jason.carter.martin/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/Users/jason.carter.martin/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/README.rst",
+		"/Users/jason.carter.martin/Library/Application Support/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/Users/jason.carter.martin/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/Default (OSX).sublime-keymap",
+		"/Users/jason.carter.martin/code/bloccit/app/models/comment.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/models/topic.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/users/show.html.erb",
+		"/Users/jason.carter.martin/rails-dev-box/stuff.html",
+		"/Users/jason.carter.martin/rails-dev-box/MIT-LICENSE",
+		"/Users/jason.carter.martin/code/bloccit/Rakefile",
+		"/Users/jason.carter.martin/code/bloccit/Gemfile",
+		"/Users/jason.carter.martin/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/jason.carter.martin/.zshrc",
+		"/Users/jason.carter.martin/code/bloccit/spec/factories/user.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/assets/stylesheets/_bootstrapy-custom.css",
+		"/Users/jason.carter.martin/code/bloccit/app/views/layouts/_navbar.html.erb",
+		"/Users/jason.carter.martin/.bashrc",
+		"/Users/jason.carter.martin/.bash_profile",
+		"/Users/jason.carter.martin/code/bloccit/app/assets/stylesheets/application.css.scss",
+		"/Users/jason.carter.martin/code/bloccit/spec/factories/post.rb",
+		"/Users/jason.carter.martin/code/bloccit/spec/support/factory_girl.rb",
+		"/Users/jason.carter.martin/code/bloccit/spec/factories/topic.rb",
+		"/Users/jason.carter.martin/code/bloccit/spec/spec_helper.rb",
+		"/Users/jason.carter.martin/code/bloccit/config/initializers/setup_mail_production.rb",
+		"/Users/jason.carter.martin/code/bloccit/db/seeds.rb",
+		"/Users/jason.carter.martin/code/bloccit/spec/support/database_cleaner.rb",
+		"/Users/jason.carter.martin/code/bloccit/spec/vote_spec.rb",
+		"/Users/jason.carter.martin/code/bloccit/tmp/cache/assets/D0B/AF0/sprockets%2Faada318492cd92ae01885ef3911e2717",
+		"/Users/jason.carter.martin/code/bloccit/app/controllers/users/omniauth_callbacks_controller.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/controllers/application_controller.rb",
+		"/Users/jason.carter.martin/code/bloccit/config/initializers/wrap_parameters.rb",
+		"/Users/jason.carter.martin/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/jason.carter.martin/code/bloccit/app/controllers/favorites_controller.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/controllers/topics_controller.rb",
+		"/Applications/MAMP/htdocs/Launchbot/index.html",
+		"/Users/jason.carter.martin/code/bloccit/app/views/topics/show.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/app/assets/javascripts/topics.js.coffee",
+		"/Users/jason.carter.martin/code/bloccit/app/uploaders/avatar_uploader.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/users/_user.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/users/index.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/app/models/ability.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/comments/_comment.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/app/controllers/votes_controller.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/topics/new.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/devise/shared/_links.erb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/layouts/application.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/config/application.yml",
+		"/Users/jason.carter.martin/code/bloccit/app/controllers/users_controller.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/controllers/posts_controller.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/controllers/topics/posts_controller.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/topics/posts/show.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/tmp/cache/sass/d775841e144f942236b5cdb1b7de69b3a312e5ea/_navbar.scssc",
+		"/Users/jason.carter.martin/code/bloccit/app/views/votes/_voter.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/tmp/cache/sass/d775841e144f942236b5cdb1b7de69b3a312e5ea/_hero-unit.scssc",
+		"/Users/jason.carter.martin/code/bloccit/tmp/cache/sass/d775841e144f942236b5cdb1b7de69b3a312e5ea/_alerts.scssc",
+		"/Users/jason.carter.martin/code/bloccit/tmp/cache/assets/D46/E50/sprockets%2F2b99562f35da19f58aead96165cd5a04",
+		"/Users/jason.carter.martin/code/bloccit/tmp/cache/sass/d775841e144f942236b5cdb1b7de69b3a312e5ea/_breadcrumbs.scssc",
+		"/Users/jason.carter.martin/code/bloccit/app/helpers/application_helper.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/topics/posts/_form.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/app/helpers/posts_helper.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/posts/_post.html.erb",
+		"/Applications/MAMP/htdocs/jasonmartin.mobi/index.html",
+		"/Users/jason.carter.martin/code/bloccit/config/application.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/mailers/favorite_mailer.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/models/vote.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/models/favorite.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/posts/_form.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/posts/show.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/devise/registrations/edit.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/doc/README_FOR_APP",
+		"/Users/jason.carter.martin/code/bloccit/config/initializers/devise.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/assets/stylesheets/bootstrap-custom.css.scss",
+		"/Users/jason.carter.martin/code/bloccit/app/controllers/users/registrations_controller.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/devise/registrations/new.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/devise/confirmations/new.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/db/migrate/20131231233950_create_topics.rb",
+		"/Users/jason.carter.martin/code/bloccit/config.ru",
+		"/Users/jason.carter.martin/code/bloccit/app/views/favorite_mailer/new_comment.text.erb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/favorite_mailer/new_comment.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/config/initializers/session_store.rb",
+		"/Users/jason.carter.martin/code/bloccit/config/initializers/secret_token.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/favorites/_favorite.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/db/migrate/20140110194203_add_email_permission_to_users.rb",
+		"/Users/jason.carter.martin/code/bloccit/db/migrate/20131229004209_add_devise_to_users.rb.ERROR?",
+		"/Users/jason.carter.martin/code/bloccit/db/schema.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/topics/edit.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/db/test.sqlite3",
+		"/Users/jason.carter.martin/code/bloccit/app/assets/stylesheets/bootstrap.css",
+		"/Users/jason.carter.martin/code/bloccit/db/migrate/20140103223644_add_post_image_to_posts.rb",
+		"/Users/jason.carter.martin/code/bloccit/db/development.sqlite3",
+		"/Users/jason.carter.martin/code/bloccit/config/database.yml",
+		"/Users/jason.carter.martin/code/bloccit/app/controllers/comments_controller.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/uploaders/post_image_uploader.rb",
+		"/Users/jason.carter.martin/code/bloccit/config/initializers/inflections.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/assets/stylesheets/bootstrap.min.css",
+		"/Users/jason.carter.martin/code/bloccit/app/views/comments/_form.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/posts/new.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/posts/_comment.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/posts/_comment.old.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/db/migrate/20140104010946_add_user_id_to_comments.rb",
+		"/Users/jason.carter.martin/code/bloccit/db/migrate/20140104005833_add_user_id_to_comments.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/topics/index.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/config/initializers/bootstrap_link_renderer.rb",
+		"/Users/jason.carter.martin/code/bloccit/.gitignore",
+		"/Users/jason.carter.martin/code/bloccit/app/views/posts/edit.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/config/initializers/setup_mail.rb",
+		"/Users/jason.carter.martin/code/bloccit/config/application.example.yml",
+		"/Users/jason.carter.martin/code/bloccit/README.md",
+		"/Users/jason.carter.martin/code/bloccit/config/environments/production.rb",
+		"/Applications/MAMP/htdocs/jasonmartin.mobi/site/index-fullscreen.html",
+		"/Applications/MAMP/htdocs/jasonmartin.mobi/site/css/layout.css",
+		"/Applications/MAMP/htdocs/jasonmartin.mobi/files/css/coffee.css",
+		"/Users/jason.carter.martin/Desktop/ashley-package/index.html",
+		"/Users/jason.carter.martin/code/bloccit/config/environments/development.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"role",
+			"launchbot",
+			"(current_user.voted(post)",
+			"glyph",
+			"image_tag",
+			"avatar_changed?",
+			"avatar_changed",
+			"posts_path",
+			"font",
+			"background-image",
+			"background",
+			"confirmablecd ..",
+			"sqlite3"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/jason.carter.martin/code/snippets.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "bloccit.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"user.rb",
+				"app/models/user.rb"
+			],
+			[
+				"user_spec.",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"navbar",
+				"app/views/layouts/_navbar.html.erb"
+			],
+			[
+				"spec/factories/userb",
+				"spec/factories/user.rb"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"factory",
+				"spec/support/factory_girl.rb"
+			],
+			[
+				"post.rb",
+				"app/models/post.rb"
+			],
+			[
+				"topics_controller",
+				"app/controllers/topics_controller.rb"
+			],
+			[
+				"avatar_up",
+				"app/uploaders/avatar_uploader.rb"
+			],
+			[
+				"views/users/show",
+				"app/views/users/show.html.erb"
+			],
+			[
+				"routes.rb",
+				"config/routes.rb"
+			],
+			[
+				"application.html",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"users_cont",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"posts_cont",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"_nav",
+				"app/views/layouts/_navbar.html.erb"
+			],
+			[
+				"posts/index.",
+				"app/views/posts/index.html.erb"
+			],
+			[
+				"posts_contro",
+				"app/controllers/topics/posts_controller.rb"
+			],
+			[
+				"users/show",
+				"app/views/users/show.html.erb"
+			],
+			[
+				"posts/show.",
+				"app/views/topics/posts/show.html.erb"
+			],
+			[
+				"posts_control",
+				"app/controllers/topics/posts_controller.rb"
+			],
+			[
+				"posts_controller",
+				"app/controllers/topics/posts_controller.rb"
+			],
+			[
+				"_post",
+				"app/views/posts/_post.html.erb"
+			],
+			[
+				"_comment.html",
+				"app/views/comments/_comment.html.erb"
+			],
+			[
+				"application_helper",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"users_con",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"topics/show",
+				"app/views/topics/show.html.erb"
+			],
+			[
+				"application.css",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"avatar",
+				"app/uploaders/avatar_uploader.rb"
+			],
+			[
+				"_navbar",
+				"app/views/layouts/_navbar.html.erb"
+			],
+			[
+				"application.html.erb",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"_voter",
+				"app/views/votes/_voter.html.erb"
+			],
+			[
+				"votes_contr",
+				"app/controllers/votes_controller.rb"
+			],
+			[
+				"vote.rb",
+				"app/models/vote.rb"
+			],
+			[
+				"favorite_mailer",
+				"app/mailers/favorite_mailer.rb"
+			],
+			[
+				"_comment",
+				"app/views/comments/_comment.html.erb"
+			],
+			[
+				"favorites_controller",
+				"app/controllers/favorites_controller.rb"
+			],
+			[
+				"posts/show",
+				"app/views/posts/show.html.erb"
+			],
+			[
+				"_comme",
+				"app/views/comments/_comment.html.erb"
+			],
+			[
+				"favorites_control",
+				"app/controllers/favorites_controller.rb"
+			],
+			[
+				"favorites_con",
+				"app/controllers/favorites_controller.rb"
+			],
+			[
+				"votes_controller",
+				"app/controllers/votes_controller.rb"
+			],
+			[
+				"ability",
+				"app/models/ability.rb"
+			],
+			[
+				"devise/registrations/edit.html",
+				"app/views/devise/registrations/edit.html.erb"
+			],
+			[
+				"comment.rb",
+				"app/models/comment.rb"
+			],
+			[
+				"devise/registrations/edit.",
+				"app/views/devise/registrations/edit.html.erb"
+			],
+			[
+				"application_cont",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"posts_contr",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"abi",
+				"app/models/ability.rb"
+			],
+			[
+				"topics_control",
+				"app/controllers/topics_controller.rb"
+			],
+			[
+				"topic.rb",
+				"app/models/topic.rb"
+			],
+			[
+				"applicaiton.css",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"favor",
+				"app/controllers/favorites_controller.rb"
+			],
+			[
+				"favorite.rb",
+				"app/models/favorite.rb"
+			],
+			[
+				"addemail",
+				"db/migrate/20140110194203_add_email_permission_to_users.rb"
+			],
+			[
+				"seeds.rb",
+				"db/seeds.rb"
+			],
+			[
+				"votes_",
+				"app/controllers/votes_controller.rb"
+			],
+			[
+				"abili",
+				"app/models/ability.rb"
+			],
+			[
+				"_vo",
+				"app/views/votes/_voter.html.erb"
+			],
+			[
+				"routes.",
+				"config/routes.rb"
+			],
+			[
+				"application.yml",
+				"config/application.yml"
+			],
+			[
+				"application",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"appli",
+				"config/application.yml"
+			],
+			[
+				"applicaiton.yml",
+				"config/application.yml"
+			],
+			[
+				"devise.rb",
+				"config/initializers/devise.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"new",
+				"app/views/posts/new.html.erb"
+			],
+			[
+				"form",
+				"app/views/posts/_form.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

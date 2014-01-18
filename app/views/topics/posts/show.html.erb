@@ -14,11 +14,15 @@
     <div id = "comments">
       <h4><u>Comments</u></h4>
       <ol>
-        <%= render partial : 'comments/comment', collection: @comments %>
+        <%= render partial: 'comments/comment', collection: @comments %>
       </ol>
       <% if can? :create, Comment %>
-        <h4><u>Add New Comment</u></h4>
-        <%= render partial: 'comments/form', locals: { topic: @topic, post: @post } %> 
+        <hr/> 
+        <div class = "js-new-comment hide">
+          <h4><a>New Comment</a></h4>
+          <%= render partial: 'comments/form', locals: { topic: @topic, post: @post } %>
+        </div>
+        <a href = "#" id = "comment" class = "js-show-hide" data-selector = "js-new-comment">Add New Comment</a>
       <% end %>
     </div>
   </div>
