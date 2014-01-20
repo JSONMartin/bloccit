@@ -12,7 +12,7 @@
       <%= markdown @post.body %>
     </p>
     <div id = "comments">
-      <h4 class = "js-comments-count"><u><%= @comments.count %> Comments</u></h4>
+      <h4 class = "js-comments-count" style="text-decoration: underline;"><%= @comments.count %> Comments</h4>
       <%= render partial: 'comments/comment', collection: @comments %>
         <!-- Rendering comments in Ordered List
         <ol>
