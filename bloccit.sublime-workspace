@@ -16,10 +16,18 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/jason.carter.martin/code/snippets.rb",
+			"file": "app/assets/javascripts/application.js",
 			"settings":
 			{
-				"buffer_size": 19,
+				"buffer_size": 1131,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/topics/posts/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 1720,
 				"line_ending": "Unix"
 			}
 		}
@@ -97,6 +105,17 @@
 	},
 	"file_history":
 	[
+		"/Users/jason.carter.martin/code/bloccit/app/views/layouts/application.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/app/assets/stylesheets/application.css.scss",
+		"/Users/jason.carter.martin/code/bloccit/config/application.yml",
+		"/Users/jason.carter.martin/code/bloccit/app/models/ability.rb",
+		"/Users/jason.carter.martin/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/jason.carter.martin/code/bloccit/app/views/topics/posts/_form.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/app/controllers/topics/posts_controller.rb",
+		"/Users/jason.carter.martin/code/bloccit/app/views/topics/show.html.erb",
+		"/Users/jason.carter.martin/code/bloccit/app/models/topic.rb",
+		"/Users/jason.carter.martin/code/snippets.rb",
+		"/Users/jason.carter.martin/code/bloccit/db/seeds.rb",
 		"/Users/jason.carter.martin/code/bloccit/spec/models/user_spec.rb",
 		"/Users/jason.carter.martin/code/bloccit/app/models/user.rb",
 		"/Users/jason.carter.martin/code/bloccit/spec/factories/comment.rb",
@@ -109,14 +128,12 @@
 		"/Users/jason.carter.martin/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/jason.carter.martin/code/bloccit/config/initializers/fog.rb",
 		"/Users/jason.carter.martin/code/bloccit/app/views/posts/index.html.erb",
-		"/Users/jason.carter.martin/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
 		"/Users/jason.carter.martin/code/bloccit/app/models/post.rb",
 		"/Users/jason.carter.martin/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
 		"/Users/jason.carter.martin/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/README.rst",
 		"/Users/jason.carter.martin/Library/Application Support/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
 		"/Users/jason.carter.martin/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/Default (OSX).sublime-keymap",
 		"/Users/jason.carter.martin/code/bloccit/app/models/comment.rb",
-		"/Users/jason.carter.martin/code/bloccit/app/models/topic.rb",
 		"/Users/jason.carter.martin/code/bloccit/app/views/users/show.html.erb",
 		"/Users/jason.carter.martin/rails-dev-box/stuff.html",
 		"/Users/jason.carter.martin/rails-dev-box/MIT-LICENSE",
@@ -129,13 +146,11 @@
 		"/Users/jason.carter.martin/code/bloccit/app/views/layouts/_navbar.html.erb",
 		"/Users/jason.carter.martin/.bashrc",
 		"/Users/jason.carter.martin/.bash_profile",
-		"/Users/jason.carter.martin/code/bloccit/app/assets/stylesheets/application.css.scss",
 		"/Users/jason.carter.martin/code/bloccit/spec/factories/post.rb",
 		"/Users/jason.carter.martin/code/bloccit/spec/support/factory_girl.rb",
 		"/Users/jason.carter.martin/code/bloccit/spec/factories/topic.rb",
 		"/Users/jason.carter.martin/code/bloccit/spec/spec_helper.rb",
 		"/Users/jason.carter.martin/code/bloccit/config/initializers/setup_mail_production.rb",
-		"/Users/jason.carter.martin/code/bloccit/db/seeds.rb",
 		"/Users/jason.carter.martin/code/bloccit/spec/support/database_cleaner.rb",
 		"/Users/jason.carter.martin/code/bloccit/spec/vote_spec.rb",
 		"/Users/jason.carter.martin/code/bloccit/tmp/cache/assets/D0B/AF0/sprockets%2Faada318492cd92ae01885ef3911e2717",
@@ -146,21 +161,16 @@
 		"/Users/jason.carter.martin/code/bloccit/app/controllers/favorites_controller.rb",
 		"/Users/jason.carter.martin/code/bloccit/app/controllers/topics_controller.rb",
 		"/Applications/MAMP/htdocs/Launchbot/index.html",
-		"/Users/jason.carter.martin/code/bloccit/app/views/topics/show.html.erb",
 		"/Users/jason.carter.martin/code/bloccit/app/assets/javascripts/topics.js.coffee",
 		"/Users/jason.carter.martin/code/bloccit/app/uploaders/avatar_uploader.rb",
 		"/Users/jason.carter.martin/code/bloccit/app/views/users/_user.html.erb",
 		"/Users/jason.carter.martin/code/bloccit/app/views/users/index.html.erb",
-		"/Users/jason.carter.martin/code/bloccit/app/models/ability.rb",
 		"/Users/jason.carter.martin/code/bloccit/app/views/comments/_comment.html.erb",
 		"/Users/jason.carter.martin/code/bloccit/app/controllers/votes_controller.rb",
 		"/Users/jason.carter.martin/code/bloccit/app/views/topics/new.html.erb",
 		"/Users/jason.carter.martin/code/bloccit/app/views/devise/shared/_links.erb",
-		"/Users/jason.carter.martin/code/bloccit/app/views/layouts/application.html.erb",
-		"/Users/jason.carter.martin/code/bloccit/config/application.yml",
 		"/Users/jason.carter.martin/code/bloccit/app/controllers/users_controller.rb",
 		"/Users/jason.carter.martin/code/bloccit/app/controllers/posts_controller.rb",
-		"/Users/jason.carter.martin/code/bloccit/app/controllers/topics/posts_controller.rb",
 		"/Users/jason.carter.martin/code/bloccit/app/views/topics/posts/show.html.erb",
 		"/Users/jason.carter.martin/code/bloccit/tmp/cache/sass/d775841e144f942236b5cdb1b7de69b3a312e5ea/_navbar.scssc",
 		"/Users/jason.carter.martin/code/bloccit/app/views/votes/_voter.html.erb",
@@ -169,7 +179,6 @@
 		"/Users/jason.carter.martin/code/bloccit/tmp/cache/assets/D46/E50/sprockets%2F2b99562f35da19f58aead96165cd5a04",
 		"/Users/jason.carter.martin/code/bloccit/tmp/cache/sass/d775841e144f942236b5cdb1b7de69b3a312e5ea/_breadcrumbs.scssc",
 		"/Users/jason.carter.martin/code/bloccit/app/helpers/application_helper.rb",
-		"/Users/jason.carter.martin/code/bloccit/app/views/topics/posts/_form.html.erb",
 		"/Users/jason.carter.martin/code/bloccit/app/helpers/posts_helper.rb",
 		"/Users/jason.carter.martin/code/bloccit/app/views/posts/_post.html.erb",
 		"/Applications/MAMP/htdocs/jasonmartin.mobi/index.html",
@@ -223,8 +232,7 @@
 		"/Applications/MAMP/htdocs/jasonmartin.mobi/site/index-fullscreen.html",
 		"/Applications/MAMP/htdocs/jasonmartin.mobi/site/css/layout.css",
 		"/Applications/MAMP/htdocs/jasonmartin.mobi/files/css/coffee.css",
-		"/Users/jason.carter.martin/Desktop/ashley-package/index.html",
-		"/Users/jason.carter.martin/code/bloccit/config/environments/development.rb"
+		"/Users/jason.carter.martin/Desktop/ashley-package/index.html"
 	],
 	"find":
 	{
@@ -278,19 +286,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/jason.carter.martin/code/snippets.rb",
+					"file": "app/assets/javascripts/application.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19,
+						"buffer_size": 1131,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19,
-								19
+								1131,
+								1131
 							]
 						],
 						"settings":
@@ -298,22 +306,82 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/topics/posts/show.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								7
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -322,30 +390,44 @@
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close"
 							],
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -398,6 +480,22 @@
 		"selected_items":
 		[
 			[
+				"application.css.scss",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"topics/posts/show",
+				"app/views/topics/posts/show.html.erb"
+			],
+			[
+				"application.html",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"application.js",
+				"app/assets/javascripts/application.js"
+			],
+			[
 				"user.rb",
 				"app/models/user.rb"
 			],
@@ -440,10 +538,6 @@
 			[
 				"routes.rb",
 				"config/routes.rb"
-			],
-			[
-				"application.html",
-				"app/views/layouts/application.html.erb"
 			],
 			[
 				"users_cont",

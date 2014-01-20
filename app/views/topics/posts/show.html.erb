@@ -12,10 +12,13 @@
       <%= markdown @post.body %>
     </p>
     <div id = "comments">
-      <h4><u>Comments</u></h4>
-      <ol>
-        <%= render partial: 'comments/comment', collection: @comments %>
-      </ol>
+      <h4 class = "js-comments-count"><u><%= @comments.count %> Comments</u></h4>
+      <%= render partial: 'comments/comment', collection: @comments %>
+        <!-- Rendering comments in Ordered List
+        <ol>
+         
+        </ol>
+        -->
       <% if can? :create, Comment %>
         <hr/> 
         <div class = "js-new-comment hide">
