@@ -15,23 +15,34 @@
 //= require bootstrap
 //= require_tree .
 $(document).ready(function() {
+
   $(".js-show-hide").click(function() {
+    
     var selector = "." + $(this).attr('data-selector');
+
     if ($(selector).is(":visible")) {
       $(selector).slideUp();
+      if(this.id == "comment") { $(this).text("Add New Comment"); } // Updates Comment link button text
     }
     else {
       $(selector).slideDown();
+      if(this.id == "comment") { $(this).text("Hide Comment Form"); } // Updates Comment link button text
     }
+
     return false;
+
   });
 
+/*
   $("#comment").click(function() {
-    if( $(this).text() == "Add New Comment" ) {
+    if ( $(".js-new-comment").is(":visible") ) {
       $(this).text("Hide Comment Form");
+      //alert(this).id;
     }
     else {
       $(this).text("Add New Comment");
     }
   });
+*/
+
 });

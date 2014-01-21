@@ -13,7 +13,9 @@
     </p>
     <div id = "comments">
       <h4 class = "js-comments-count" style="text-decoration: underline;"><%= @comments.count %> Comments</h4>
-      <%= render partial: 'comments/comment', collection: @comments %>
+      <div class = "js-comments">
+        <%= render partial: 'comments/comment', collection: @comments %>
+      </div>
         <!-- Rendering comments in Ordered List
         <ol>
          
@@ -21,9 +23,10 @@
         -->
       <% if can? :create, Comment %>
         <hr/> 
-        <div class = "js-new-comment hide">
+        <div id = "comment-alerts"></div>
+        <div class = "js-new-comment hide" id = "new-comment-div">
           <h4><a>New Comment</a></h4>
-          <%= render partial: 'comments/form', locals: { topic: @topic, post: @post } %>
+          <%= render partial: 'comments/form', locals: { topic: @topic, post: @post, comment: Comment.new } %>
         </div>
         <a href = "#" id = "comment" class = "js-show-hide" data-selector = "js-new-comment">Add New Comment</a>
       <% end %>

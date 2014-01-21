@@ -1,0 +1,10 @@
+<% if @comment.valid? %>
+  $(".js-comments").prepend("<%= escape_javascript(render(@comment)) %>");
+  $('.js-comments-count').html("<%= @post.comments.count %> Comments");
+  $("#new-comment-div").html("<h4><a>New Comment</a></h4><%= escape_javascript(render partial: 'comments/form', locals: { topic: @topic, post: @post, comment: @new_comment}) %>");
+  $("#comment-alerts").html("<div class='alert alert-success'><button class='close' data-dismiss='alert' type='button'>&times;</button><%= flash[:notice] %></div>");
+  $("#comment").click();
+<% else %>
+  $("#new-comment-div").html("<h4><a>New Comment</a></h4><%= escape_javascript(render partial: 'comments/form', locals: { topic: @topic, post: @post, comment: @comment}) %>");
+  $("#comment-alerts").html("<div class='alert alert-error'><button class='close' data-dismiss='alert' type='button'>&times;</button><%= flash[:error] %></div>");
+<% end %>
